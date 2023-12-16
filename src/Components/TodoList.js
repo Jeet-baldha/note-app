@@ -32,9 +32,8 @@ function Todo(){
     return(
 
         <div className="container">
-            <h1>ToDo list</h1>
+            <h1>Note App</h1>
             <InputArea addItem={addItem} />
-
             <div className="grid">
                 {item.map((it,index) => 
                     <Item 
